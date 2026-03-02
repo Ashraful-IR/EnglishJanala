@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Deisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .font-bangla {
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="px-10 border-1 border-[#c6bdbd] bg-[#badeff42]  backdrop-sepia-[40px] rounded-[4px]">
+            <div class="navbar bg-base-100 shadow-sm flex justify-between items-center">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="-1"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-60 p-2 shadow">
+                            <li><a>FAQ</a></li>
+                            <li>
+                                <a>Learn</a>
+                            </li>
+                            <li><a>Log Out</a></li>
+                        </ul>
+                    </div>
+                    <a class="flex justify-between items-center gap-1"><span
+                            class="text-[20px] font-regular text-[#18181b]">English</span><img src="./assets/logo.png"
+                            alt=""><span class="text-[20px] font-regular text-[#000000]">জানালা</span></a>
+                </div>
+                <div class="navbar-end hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 gap-4">
+                        <li class="border-1 border-[#422ad5] rounded-[4px] text-[#422ad5] font-semibold"><a><i
+                                    class="fa-solid fa-question-circle"></i> FAQ</a></li>
+                        <li class="border-1 border-[#422ad5] rounded-[4px] text-[#422ad5] font-semibold"> <a><i
+                                    class="fa-solid fa-graduation-cap"></i> Learn</a> </li>
+                        <li class="border-1 border-[#422ad5] rounded-[4px] text-[#422ad5] font-semibold"><a><i
+                                    class="fa-solid fa-sign-out-alt"></i> Log Out</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="navbar-end">
+                    <a class="btn">Button</a>
+                </div> -->
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
