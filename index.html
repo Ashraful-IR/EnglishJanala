@@ -36,9 +36,8 @@
     </style>
 </head>
 
-<body>
+<body class="">
     <header>
-        <nav class="px-10 border-1 border-[#c6bdbd] bg-[#badeff42]  backdrop-sepia-[40px] rounded-[4px]">
             <div class="navbar bg-base-100 shadow-sm flex justify-between items-center">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -64,30 +63,26 @@
                 </div>
                 <div class="navbar-end hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 gap-4">
-                        <li class="border-1 border-[#422ad5] rounded-[4px] text-[#422ad5] font-semibold"><a><i
+                        <li class="border border-[#422ad5] rounded-1 text-[#422ad5] font-semibold"><a><i
                                     class="fa-solid fa-question-circle"></i> FAQ</a></li>
-                        <li class="border-1 border-[#422ad5] rounded-[4px] text-[#422ad5] font-semibold"> <a><i
+                        <li class="border border-[#422ad5] rounded-1 text-[#422ad5] font-semibold"> <a><i
                                     class="fa-solid fa-graduation-cap"></i> Learn</a> </li>
-                        <li class="border-1 border-[#422ad5] rounded-[4px] text-[#422ad5] font-semibold"><a><i
+                        <li class="border border-[#422ad5] rounded-1 text-[#422ad5] font-semibold"><a><i
                                     class="fa-solid fa-sign-out-alt"></i> Log Out</a></li>
                     </ul>
                 </div>
-                <!-- <div class="navbar-end">
-                    <a class="btn">Button</a>
-                </div> -->
             </div>
-        </nav>
     </header>
     <!-- Hero Section -->
-    <section class="hero container mx-auto">
+    <section class="hero px-25 ">
         <!-- <div class="hero bg-base-200 min-h-screen flex justify-between items-center"> -->
-        <div class="hero-content flex-col justify-between items-center gap-70 lg:flex-row-reverse">
-            <div class="bg-[url(./assets/hero-student.png)] w-[534px] h-[532px] bg-cover bg-center p-4"></div>
-            <div class="flex flex-col justify-between items-left space-y-10 p-4 ">
+        <div class="hero-content  flex-col justify-between items-center gap-50 lg:flex-row-reverse">
+            <div class="bg-[url(./assets/hero-student.png)] w-[534px] h-[532px] bg-cover bg-center"></div>
+            <div class="flex flex-col justify-between items-left space-y-10">
                 <h1 class="text-5xl font-bold"><span class="text-cyan-400">English </span> is Easy!!</h1>
                 <p class="font-medium text-6 text-[#18181b] font-bangla">
-                    আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা<br> আপনার দক্ষতা বাড়াতে চান,
-                    আমাদের Interactive Lessons আপনাকে নিয়ে<br> যাবে অন্য একটি Level এ
+                    আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন<br> অথবা আপনার দক্ষতা বাড়াতে চান,
+                    আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ
                 </p>
                 <fieldset class="fieldset border-base-300 rounded-box w-xs border space-y-4">
                     <!-- <label class="label">Email</label> -->
@@ -102,6 +97,111 @@
         </div>
         <!-- </div> -->
     </section>
+    <!-- Button Section -->
+    <section class="px-25 py-50">
+        <div class="flex flex-col justify-between items-center gap-20">
+            <div class="flex flex-col justify-between items-center gap-10">
+                <p class="font-bold text-[36px]"><span class="text-cyan-400">Let's</span> Learn Vocabularies</p>
+                <div class="space-x-5">
+                    <button class="btn btn-outline btn-primary rounded-1"><i
+                            class="fa-solid fa-book"></i>Lesson-1</button>
+                    <button class="btn btn-outline btn-primary rounded-1"><i
+                            class="fa-solid fa-book"></i>Lesson-2</button>
+                    <button class="btn btn-outline btn-primary rounded-1"><i
+                            class="fa-solid fa-book"></i>Lesson-3</button>
+                    <button class="btn btn-outline btn-primary rounded-1"><i
+                            class="fa-solid fa-book"></i>Lesson-4</button>
+                    <button class="btn btn-outline btn-primary rounded-1"><i
+                            class="fa-solid fa-book"></i>Lesson-5</button>
+                    <button class="btn btn-outline btn-primary rounded-1"><i
+                            class="fa-solid fa-book"></i>Lesson-6</button>
+                    <button class="btn btn-outline btn-primary rounded-1"><i
+                            class="fa-solid fa-book"></i>Lesson-7</button>
+
+                </div>
+            </div>
+            <div class="rounded-6 flex flex-col justify-between items-center gap-3 ">
+                <p class="font-bangla text-[13.38px] font-regular text-[#79716b]">
+                    আপনি এখনো কোন Lesson Select করেন নি।
+                </p>
+                <p class="font-bangla text-[34.31px] font-regular text-[#292524]">
+                    একটি Lesson Select করুন।
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section -->
+    <section class="px-25 py-30 flex flex-col justify-between items-center space-y-40  ">
+        <div class="flex flex-col justify-between items-center">
+            <p class="font-bold text-[36px]"><span class="text-cyan-400">Frequently</span> Asked Questions</p>
+        </div>
+        <div class="flex flex-col  w-full mx-auto space-y-8">
+            <div class="q1 flex justify-between items-center">
+                <p class="font-bangla text-[16px] font-medium text-[#18181b] text-left">
+                    1. How can I start learning English on this website?
+                </p>
+                <button class="btn"><i class="fa-solid fa-plus text-[#000000]"></i></button>
+            </div>
+
+            <div class="q1 flex justify-between items-center ">
+                <p class="font-bangla text-[16px] font-medium text-[#18181b] text-left">
+                    2. Is this website free to use?
+                </p>
+                <button class="btn"><i class="fa-solid fa-plus text-[#000000]"></i></button>
+            </div>
+
+            <div class="q1 flex justify-between items-center">
+                <p class="font-bangla text-[16px] font-medium text-[#18181b] text-left">
+                    3. Do I need to create an account?
+                </p>
+                <button class="btn"><i class="fa-solid fa-plus text-[#000000]"></i></button>
+            </div>
+
+            <div class="q1 flex justify-between items-center ">
+                <p class="font-bangla text-[16px] font-medium text-[#18181b] text-left">
+                    4. How can I build my English vocabulary?
+                </p>
+                <button class="btn"><i class="fa-solid fa-plus text-[#000000]"></i></button>
+            </div>
+
+            <div class="q1 flex justify-between items-center ">
+                <p class="font-bangla text-[16px] font-medium text-[#18181b] text-left">
+                    5. Do you offer certificates for completed courses?
+                </p>
+                <button class="btn"><i class="fa-solid fa-plus text-[#000000]"></i></button>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer border-t border-[#eaebec] sm:footer-horizontal items-center px-25 py-15 ">
+        <aside class="w-full flex flex-col items-left gap-5">
+            <div class="flex justify-between items-center">
+                <span class="text-[20px] font-regular text-[#18181b]">English</span><img src="./assets/logo.png"
+                    alt=""><span class="text-[20px] font-regular text-[#000000]">জানালা
+                </span>
+            </div>
+
+            <div class="flex flex-row justify-between items-center w-full ">
+                <div class="flex flex-col justify-between items-left gap-5">
+                    <p class="font-medium text-5 font-bangla">ইংরেজি শিখুন সহজে</p>
+                    <p class=" text-4 font-bangla">Providing ED-Tech Applications since 2025</p>
+                </div>
+
+                <div class="space-y-5 text-left">
+                    <p class="font-medium text-5 font-bangla">FOLLOW US</p>
+                    <div class="text-3xl">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </aside>
+
+    </footer>
 
 </body>
 
