@@ -36,7 +36,7 @@
     </style>
 </head>
 
-<body class="">
+<body >
     <header>
             <div class="navbar bg-base-100 shadow-sm flex justify-between items-center">
                 <div class="navbar-start">
@@ -74,12 +74,13 @@
             </div>
     </header>
     <!-- Hero Section -->
-    <section class="hero px-25 ">
-        <!-- <div class="hero bg-base-200 min-h-screen flex justify-between items-center"> -->
-        <div class="hero-content  flex-col justify-between items-center gap-50 lg:flex-row-reverse">
-            <div class="bg-[url(./assets/hero-student.png)] w-[534px] h-[532px] bg-cover bg-center"></div>
-            <div class="flex flex-col justify-between items-left space-y-10">
-                <h1 class="text-5xl font-bold"><span class="text-cyan-400">English </span> is Easy!!</h1>
+    <section class="hero   ">
+        <div class="hero-content mx-auto w-11/12 flex-col justify-between items-center gap-40 sm:gap-90 lg:flex-row-reverse">
+            <div class="flex-1">
+                <img src="./assets/hero-student.png" alt="">
+            </div>
+            <div class="flex flex-col justify-between items-left space-y-10 flex-1">
+                <h1 class="text-3xl sm:text-5xl font-bold"><span class="text-cyan-400">English </span> is Easy!!</h1>
                 <p class="font-medium text-6 text-[#18181b] font-bangla">
                     আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন<br> অথবা আপনার দক্ষতা বাড়াতে চান,
                     আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ
@@ -95,15 +96,14 @@
                 </fieldset>
             </div>
         </div>
-        <!-- </div> -->
     </section>
     <!-- Button Section -->
-    <section class="px-25 py-50">
+    <section class="py-50 ">
         <div class="flex flex-col justify-between items-center gap-20">
             <div class="flex flex-col justify-between items-center gap-10">
-                <p class="font-bold text-[36px]"><span class="text-cyan-400">Let's</span> Learn Vocabularies</p>
-                <div class="space-x-5">
-                    <button class="btn btn-outline btn-primary rounded-1"><i
+                <p class="font-bold text-3xl sm:text-[36px]"><span class="text-cyan-400">Let's</span> Learn Vocabularies</p>
+                <div id="buttons" class=" flex flex-wrap justify-center items-center gap-5">
+                    <!-- <button class="btn btn-outline btn-primary rounded-1"><i
                             class="fa-solid fa-book"></i>Lesson-1</button>
                     <button class="btn btn-outline btn-primary rounded-1"><i
                             class="fa-solid fa-book"></i>Lesson-2</button>
@@ -116,7 +116,7 @@
                     <button class="btn btn-outline btn-primary rounded-1"><i
                             class="fa-solid fa-book"></i>Lesson-6</button>
                     <button class="btn btn-outline btn-primary rounded-1"><i
-                            class="fa-solid fa-book"></i>Lesson-7</button>
+                            class="fa-solid fa-book"></i>Lesson-7</button> -->
 
                 </div>
             </div>
@@ -131,11 +131,11 @@
         </div>
     </section>
     <!-- FAQ Section -->
-    <section class="px-25 py-30 flex flex-col justify-between items-center space-y-40  ">
+    <section class="py-20 flex flex-col justify-between items-center space-y-30  ">
         <div class="flex flex-col justify-between items-center">
-            <p class="font-bold text-[36px]"><span class="text-cyan-400">Frequently</span> Asked Questions</p>
+            <p class="font-bold text-2xl sm:text-[36px]"><span class="text-cyan-400">Frequently</span> Asked Questions</p>
         </div>
-        <div class="flex flex-col  w-full mx-auto space-y-8">
+        <div class="flex flex-col  w-full p-5 mx-auto space-y-8">
             <div class="q1 flex justify-between items-center">
                 <p class="font-bangla text-[16px] font-medium text-[#18181b] text-left">
                     1. How can I start learning English on this website?
@@ -173,8 +173,8 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer class="footer border-t border-[#eaebec] sm:footer-horizontal items-center px-25 py-15 ">
-        <aside class="w-full flex flex-col items-left gap-5">
+    <footer class="footer border-t border-[#eaebec] sm:footer-horizontal items-center  py-15 ">
+        <aside class="w-full flex flex-col items-left gap-5 p-5">
             <div class="flex justify-between items-center">
                 <span class="text-[20px] font-regular text-[#18181b]">English</span><img src="./assets/logo.png"
                     alt=""><span class="text-[20px] font-regular text-[#000000]">জানালা
@@ -197,8 +197,6 @@
 
                 </div>
             </div>
-
-
         </aside>
 
     </footer>
