@@ -25,57 +25,50 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <style>
-        * {
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .font-bangla {
-            font-family: 'Hind Siliguri', sans-serif;
-        }
-    </style>
+    
 </head>
 
-<body >
+<body>
     <header>
-            <div class="navbar bg-base-100 shadow-sm flex justify-between items-center">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul tabindex="-1"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-60 p-2 shadow">
-                            <li><a>FAQ</a></li>
-                            <li>
-                                <a>Learn</a>
-                            </li>
-                            <li><a>Log Out</a></li>
-                        </ul>
+        <div class="navbar bg-base-100 shadow-sm flex justify-between items-center">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
                     </div>
-                    <a class="flex justify-between items-center gap-1"><span
-                            class="text-[20px] font-regular text-[#18181b]">English</span><img src="./assets/logo.png"
-                            alt=""><span class="text-[20px] font-regular text-[#000000]">জানালা</span></a>
-                </div>
-                <div class="navbar-end hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1 gap-4">
-                        <li class="border border-[#422ad5] rounded-1 text-[#422ad5] font-semibold"><a><i
-                                    class="fa-solid fa-question-circle"></i> FAQ</a></li>
-                        <li class="border border-[#422ad5] rounded-1 text-[#422ad5] font-semibold"> <a><i
-                                    class="fa-solid fa-graduation-cap"></i> Learn</a> </li>
-                        <li class="border border-[#422ad5] rounded-1 text-[#422ad5] font-semibold"><a><i
-                                    class="fa-solid fa-sign-out-alt"></i> Log Out</a></li>
+                    <ul tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-60 p-2 shadow">
+                        <li><a>FAQ</a></li>
+                        <li>
+                            <a>Learn</a>
+                        </li>
+                        <li><a>Log Out</a></li>
                     </ul>
                 </div>
+                <a class="flex justify-between items-center gap-1"><span
+                        class="text-[20px] font-regular text-[#18181b]">English</span><img src="./assets/logo.png"
+                        alt=""><span class="text-[20px] font-regular text-[#000000]">জানালা</span></a>
             </div>
+            <div class="navbar-end hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 gap-4">
+                    <li class="border border-[#422ad5] rounded-1 text-[#422ad5] font-semibold"><a><i
+                                class="fa-solid fa-question-circle"></i> FAQ</a></li>
+                    <li class="border border-[#422ad5] rounded-1 text-[#422ad5] font-semibold"> <a><i
+                                class="fa-solid fa-graduation-cap"></i> Learn</a> </li>
+                    <li class="border border-[#422ad5] rounded-1 text-[#422ad5] font-semibold"><a><i
+                                class="fa-solid fa-sign-out-alt"></i> Log Out</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <!-- Hero Section -->
     <section class="hero   ">
-        <div class="hero-content mx-auto w-11/12 flex-col justify-between items-center gap-40 sm:gap-90 lg:flex-row-reverse">
+        <div
+            class="hero-content mx-auto w-11/12 flex-col justify-between items-center gap-40 sm:gap-90 lg:flex-row-reverse">
             <div class="flex-1">
                 <img src="./assets/hero-student.png" alt="">
             </div>
@@ -101,79 +94,31 @@
     <section class="py-50 ">
         <div class="flex flex-col justify-between items-center gap-20">
             <div class="flex flex-col justify-between items-center gap-10">
-                <p class="font-bold text-3xl sm:text-[36px]"><span class="text-cyan-400">Let's</span> Learn Vocabularies</p>
-                <div id="buttons-level" class=" flex flex-wrap justify-center items-center gap-5">
-                    <!-- <button class="btn btn-outline btn-primary rounded-1"><i
-                            class="fa-solid fa-book"></i>Lesson-1</button>
-                    <button class="btn btn-outline btn-primary rounded-1"><i
-                            class="fa-solid fa-book"></i>Lesson-2</button>
-                    <button class="btn btn-outline btn-primary rounded-1"><i
-                            class="fa-solid fa-book"></i>Lesson-3</button>
-                    <button class="btn btn-outline btn-primary rounded-1"><i
-                            class="fa-solid fa-book"></i>Lesson-4</button>
-                    <button class="btn btn-outline btn-primary rounded-1"><i
-                            class="fa-solid fa-book"></i>Lesson-5</button>
-                    <button class="btn btn-outline btn-primary rounded-1"><i
-                            class="fa-solid fa-book"></i>Lesson-6</button>
-                    <button class="btn btn-outline btn-primary rounded-1"><i
-                            class="fa-solid fa-book"></i>Lesson-7</button> -->
-
-                </div>
-            </div>
-            <div class="rounded-6 flex flex-col justify-between items-center gap-3 ">
-                <p class="font-bangla text-[13.38px] font-regular text-[#79716b]">
-                    আপনি এখনো কোন Lesson Select করেন নি।
+                <p class="font-bold text-3xl sm:text-[36px]"><span class="text-cyan-400">Let's</span> Learn Vocabularies
                 </p>
-                <p class="font-bangla text-[34.31px] font-regular text-[#292524]">
-                    একটি Lesson Select করুন।
-                </p>
+                <div id="buttons-level" class=" flex flex-wrap justify-center items-center gap-5"></div>
             </div>
+        </div>
         </div>
     </section>
-
     <!-- Word Section -->
-     <section id="word-container" class="word bg-gray-100 py-5 w-11/12 mx-auto p-10 my-10 flex flex-wrap justify-center items-center gap-10 rounded-6">
-        <!-- <div class=" rounded-xl text-center py-10 px-5 bg-amber-900 ">
-            <h2>Eager</h2>
-            <p>Meaning / Pronunciation</p>
-            <div>
-                Agrohi
-            </div>
-        </div>
-        <div class=" rounded-xl text-center py-10 px-5 bg-amber-900 ">
-            <h2>Eager</h2>
-            <p>Meaning / Pronunciation</p>
-            <div>
-                Agrohi
-            </div>
-        </div>
-        <div class=" rounded-xl text-center py-10 px-5 bg-amber-900 ">
-            <h2>Eager</h2>
-            <p>Meaning / Pronunciation</p>
-            <div>
-                Agrohi
-            </div>
-        </div>
-        <div class=" rounded-xl text-center py-10 px-5 bg-amber-900 ">
-            <h2>Eager</h2>
-            <p>Meaning / Pronunciation</p>
-            <div>
-                Agrohi
-            </div>
-        </div>
-        <div class=" rounded-xl text-center py-10 px-5 bg-amber-900 ">
-            <h2>Eager</h2>
-            <p>Meaning / Pronunciation</p>
-            <div>
-                Agrohi
-            </div>
-        </div> -->
+    <section id="word-container"
+        class="word bg-gray-100  w-11/12 mx-auto p-10 my-10  grid-cols-1 grid sm:grid-cols-3 gap-10">
 
-     </section>
+        <div class="rounded-2xl bg-sky-100 text-center col-span-full space-y-5 p-5 ">
+            <p class="font-bangla text-[13.38px] font-regular text-[#79716b]">
+                আপনি এখনো কোন Lesson Select করেন নি।
+            </p>
+            <p class="font-bangla text-[34.31px] font-bold text-[#292524]">
+                একটি Lesson Select করুন।
+            </p>
+        </div>
+    </section>
     <!-- FAQ Section -->
     <section class="py-20 flex flex-col justify-between items-center space-y-30  ">
         <div class="flex flex-col justify-between items-center">
-            <p class="font-bold text-2xl sm:text-[36px]"><span class="text-cyan-400">Frequently</span> Asked Questions</p>
+            <p class="font-bold text-2xl sm:text-[36px]"><span class="text-cyan-400">Frequently</span> Asked Questions
+            </p>
         </div>
         <div class="flex flex-col  w-full p-5 mx-auto space-y-8">
             <div class="q1 flex justify-between items-center">
@@ -212,6 +157,21 @@
             </div>
         </div>
     </section>
+
+    <!-- Open the modal using ID.showModal() method -->
+<!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <div id="details-container"></div>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
     <!-- Footer -->
     <footer class="footer border-t border-[#eaebec] sm:footer-horizontal items-center  py-15 ">
         <aside class="w-full flex flex-col items-left gap-5 p-5">
@@ -242,6 +202,7 @@
     </footer>
 
     <script src="./Script/index.js"></script>
+    <link rel="stylesheet" href="./Style/style.css">
 </body>
 
 </html>
